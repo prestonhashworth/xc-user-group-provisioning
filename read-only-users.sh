@@ -2,6 +2,8 @@
 
 #Creates a read-only user group in XC console across all application namespaces, as well as system and default
 
+#Create TENANT_URL and API_TOKEN env variables and run
+
 curl --location "$TENANT_URL/api/web/custom/namespaces/system/user_groups/read-only" \
 --header 'Content-Type: application/json' \
 --header 'Accept: application/json' \
